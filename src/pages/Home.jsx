@@ -14,7 +14,7 @@ const Home = () => {
                 textAlign: 'center'
             }}
         >
-            <HomeRoundedIcon sx={{ fontSize: 80, color: 'primary.main', mb: 2, color: '#ff8c16' }} />
+            <HomeRoundedIcon sx={{ fontSize: 80, mb: 2, color: '#ff8c16' }} />
             <Typography variant="h4" component="h1" fontWeight="bold">
                 Welcome to Product App
             </Typography>
