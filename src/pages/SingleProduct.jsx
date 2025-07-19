@@ -40,7 +40,7 @@ const SingleProduct = () => {
     <Container maxWidth="lg" sx={{ my: 5 }}>
       <Grid container spacing={5}>
         {/* Image Section */}
-        <Grid sx={{ flex: 1 }}>
+        <Grid size={{xs:12, md:6}}>
           <Box
             component="img"
             src={data.thumbnail}
@@ -54,7 +54,7 @@ const SingleProduct = () => {
             }}
           />
         </Grid>
-        <Grid sx={{ flex: 1 }}>
+        <Grid size={{xs:12, md:6}}>
           <Typography variant="h4" gutterBottom>{data.title}</Typography>
           <Box display="flex" alignItems="center" gap={2}>
             <Typography variant="h5" color="green">${data.price}</Typography>
